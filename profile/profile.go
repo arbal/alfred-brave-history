@@ -4,11 +4,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/pasela/alfred-chrome-history/utils"
+	"github.com/pasela/alfred-brave-history/utils"
 )
 
 const (
-	chromeConfigPath = "~/Library/Application Support/Google/Chrome"
+	braveConfigPath = "~/Library/Application Support/BraveSoftware/Brave-Browser"
 )
 
 func GetProfilePath(profile string) (string, error) {
@@ -19,7 +19,7 @@ func GetProfilePath(profile string) (string, error) {
 		if profile == "" {
 			profile = "Default"
 		}
-		path = filepath.Join(chromeConfigPath, profile)
+		path = filepath.Join(braveConfigPath, profile)
 	}
 
 	return utils.ExpandTilde(path)

@@ -1,4 +1,4 @@
-PROJECT  = alfred-chrome-history
+PROJECT  = alfred-brave-history
 TESTARGS ?= -v -race -cover
 
 .PHONY: dist

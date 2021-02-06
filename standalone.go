@@ -3,14 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"os"
 	"strings"
 )
 
 func run() error {
 	var limit int
-	profile := os.Getenv("CHROME_PROFILE")
-	flag.StringVar(&profile, "profile", profile, "Chrome profile directory")
+	profile := "Default"
+	flag.StringVar(&profile, "profile", profile, "Brave profile directory")
 	flag.IntVar(&limit, "limit", 0, "Limit n results")
 	flag.Parse()
 

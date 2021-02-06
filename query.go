@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/pasela/alfred-chrome-history/history"
-	"github.com/pasela/alfred-chrome-history/utils"
+	"github.com/pasela/alfred-brave-history/history"
+	"github.com/pasela/alfred-brave-history/utils"
 )
 
 func queryHistory(profile, url, title string, limit int) ([]history.Entry, error) {
@@ -43,7 +43,7 @@ func (h *historyFile) initTempDir() error {
 		return nil
 	}
 
-	tempDir, err := ioutil.TempDir("", "alfred-chrome-history")
+	tempDir, err := ioutil.TempDir("", "alfred-brave-history")
 	if err != nil {
 		return err
 	}

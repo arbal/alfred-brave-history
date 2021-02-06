@@ -1,21 +1,21 @@
-# alfred-chrome-history
+# alfred-brave-history
 
-Search Chrome history from Alfred and open in browser.
+Search Brave history from Alfred and open in browser.
 
 ## Features
 
-- Search Chrome history (title and URL)
-- Support another Chrome profile
+- Search Brave history (title and URL)
+- Support another Brave profile
 
 ## Installation
 
-Clone and `make dist` or just download [binary releases](https://github.com/pasela/alfred-chrome-history/releases).
+Clone and `make dist` or just download [binary releases](https://github.com/pasela/alfred-brave-history/releases).
 
 ```sh
-git clone https://github.com/pasela/alfred-chrome-history.git
-cd alfred-chrome-history
+git clone https://github.com/pasela/alfred-brave-history.git
+cd alfred-brave-history
 make dist
-open alfred-chrome-history.alfredworkflow
+open alfred-brave-history.alfredworkflow
 ```
 
 ## Usage
@@ -26,11 +26,11 @@ in Alfred:
 ch {query}
 ```
 
-## Use another Chrome profile
+## Use another Brave profile
 
-1. Open workflow `Chrome History` in Alfred Workflows tab.
+1. Open workflow `Brave History` in Alfred Workflows tab.
 2. Open Workflow Configuration dialog by upper right side button.
-3. Set `CHROME_PROFILE` variable with your Chrome profile directory name or path such as `Profile 1`.
+3. Set `CHROME_PROFILE` variable with your Brave profile directory name or path such as `Profile 1`.
 
 ## License
 

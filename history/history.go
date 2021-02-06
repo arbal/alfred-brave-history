@@ -8,8 +8,8 @@ import (
 	"time"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/pasela/alfred-chrome-history/profile"
-	"github.com/pasela/alfred-chrome-history/utils"
+	"github.com/pasela/alfred-brave-history/profile"
+	"github.com/pasela/alfred-brave-history/utils"
 	"golang.org/x/text/unicode/norm"
 )
 
@@ -134,12 +134,12 @@ func scanEntry(rows *sql.Rows, entry *Entry) error {
 	if err != nil {
 		return err
 	}
-	entry.LastVisitTime = convertChromeTime(visit)
+	entry.LastVisitTime = convertBraveTime(visit)
 	return nil
 }
 
 // https://code.google.com/p/chromium/codesearch#chromium/src/base/time/time.h
-func convertChromeTime(msec int64) time.Time {
+func convertBraveTime(msec int64) time.Time {
 	sec := msec / 1000000
 	nsec := (msec % 1000000) * 1000
 

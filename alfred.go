@@ -8,7 +8,7 @@ import (
 )
 
 type WorkflowOptions struct {
-	Profile string `env:"CHROME_PROFILE"`
+	Profile string `env:"BRAVE_PROFILE"`
 	Limit   int    `env:"LIMIT"`
 }
 

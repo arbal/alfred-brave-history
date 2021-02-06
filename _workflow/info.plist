@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.github.pasela.alfred-chrome-history</string>
+	<string>com.github.pasela.alfred-brave-history</string>
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
@@ -35,11 +35,11 @@
 	<key>createdby</key>
 	<string>pasela</string>
 	<key>description</key>
-	<string>Search Chrome history</string>
+	<string>Search Brave history</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Chrome History</string>
+	<string>Brave History</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -68,15 +68,15 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>./alfred-chrome-history "$@"</string>
+				<string>./alfred-brave-history "$@"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string>test.sh</string>
 				<key>subtext</key>
-				<string>Open Chrome History</string>
+				<string>Open Brave History</string>
 				<key>title</key>
-				<string>Chrome History</string>
+				<string>Brave History</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -127,9 +127,9 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Chrome History
+	<string># Brave History
 
-Search Chrome history and open/copy URLs.
+Search Brave history and open/copy URLs.
 
 ## Configuration
 
@@ -167,6 +167,6 @@ You can specify the profile and result limits.
 	<key>version</key>
 	<string>1.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/pasela/alfred-chrome-history</string>
+	<string>https://github.com/pasela/alfred-brave-history</string>
 </dict>
 </plist>

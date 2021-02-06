@@ -1,4 +1,4 @@
-module github.com/pasela/alfred-chrome-history
+module github.com/pasela/alfred-brave-history
 
 go 1.13
 
