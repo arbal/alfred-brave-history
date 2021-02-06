@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/arbal/alfred-brave-history/profile"
+	"github.com/arbal/alfred-brave-history/utils"
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/pasela/alfred-brave-history/profile"
-	"github.com/pasela/alfred-brave-history/utils"
 	"golang.org/x/text/unicode/norm"
 )
 

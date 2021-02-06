@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/pasela/alfred-brave-history/history"
-	"github.com/pasela/alfred-brave-history/utils"
+	"github.com/arbal/alfred-brave-history/history"
+	"github.com/arbal/alfred-brave-history/utils"
 )
 
 func queryHistory(profile, url, title string, limit int) ([]history.Entry, error) {

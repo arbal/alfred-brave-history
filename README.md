@@ -30,7 +30,7 @@ ch {query}
 
 1. Open workflow `Brave History` in Alfred Workflows tab.
 2. Open Workflow Configuration dialog by upper right side button.
-3. Set `CHROME_PROFILE` variable with your Brave profile directory name or path such as `Profile 1`.
+3. Set `BRAVE_PROFILE` variable with your Brave profile directory name or path such as `Profile 1`.
 
 ## License
 

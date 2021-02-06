@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/pasela/alfred-brave-history/utils"
+	"github.com/arbal/alfred-brave-history/utils"
 )
 
 const (

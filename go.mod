@@ -1,4 +1,4 @@
-module github.com/pasela/alfred-brave-history
+module github.com/arbal/alfred-brave-history
 
 go 1.13
 
